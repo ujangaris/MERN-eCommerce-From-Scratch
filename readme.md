@@ -105,3 +105,16 @@
         All products : http://localhost:5000/api/products
         single product (klik salah satu product pada All products) : http://localhost:5000/api/products/2
     note: pastikan kedua server pada terminal berjalan bersamaan!
+
+### Section 3 : Serving & Fetching Data From Expres| 14. Nodemon & Concurrently Setup
+
+    install nodemon & Component pada root directory bukan pada backend atau frontend folder!
+        npm i -D nodemon concurrently
+        jalankan server : npm run dev
+
+    pengujian pada browser:
+        http://localhost:5000/
+        All products : http://localhost:5000/api/products
+        single product (klik salah satu product pada All products) : http://localhost:5000/api/products/2
+
+    note: kerennya kita hanya menjalankan server pada root directory saja kedua server bisa berjalan berbarengan :)
