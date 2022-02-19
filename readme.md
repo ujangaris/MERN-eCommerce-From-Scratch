@@ -64,3 +64,9 @@
     pengujian pada pada browser : http://localhost:3000/
     coba untuk mengklik menu pada navbar dan salah satuitem product, jika tidak terjadi error
     maka set-up yang kita lakukan berhasil
+
+### Section 2 : Starting The Front End | 10. Product Detail Screen
+
+    pengujian pada pada browser : http://localhost:3000/
+    coba untuk mengklik menu pada navbar dan salah satuitem product, jika berhasil akan di redirect
+    ke halaman detail product yng dipilih.
