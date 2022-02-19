@@ -6,3 +6,7 @@
     setup project : npx create-react-app frontend
     selanjutnya pada terminal : cd frontend kemudian jalankan server npm start
     pada browser : http://localhost:3000/
+
+### Section 2 : Starting The Front End | Welcome to proshop
+
+    pengujian pada pada browser : http://localhost:3000/
