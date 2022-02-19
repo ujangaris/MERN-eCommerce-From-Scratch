@@ -30,3 +30,10 @@
     install react-bootstrap: npm i react-bootstrap
 
     pengujian pada pada browser : http://localhost:3000/
+
+### Section 2 : Starting The Front End | 6. HomeScreen Product Listing
+
+    tambahkan folder image kedalam folder public/images
+    tambahkan file products.js kedalam folder src/products.js
+
+    pengujian pada pada browser : http://localhost:3000/
