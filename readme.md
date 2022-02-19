@@ -37,3 +37,7 @@
     tambahkan file products.js kedalam folder src/products.js
 
     pengujian pada pada browser : http://localhost:3000/
+
+### Section 2 : Starting The Front End | 7. Rating Component
+
+    pengujian pada pada browser : http://localhost:3000/
