@@ -1,3 +1,4 @@
+// rafce => react arow function component export
 import React from 'react'
 import PropTypes from 'prop-types'
 

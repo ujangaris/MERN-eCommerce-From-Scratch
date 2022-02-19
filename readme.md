@@ -41,3 +41,26 @@
 ### Section 2 : Starting The Front End | 7. Rating Component
 
     pengujian pada pada browser : http://localhost:3000/
+
+### Section 2 : Starting The Front End | 8. Note on React Router
+
+    React Router v6 has been released and has some breaking changes. You have 2 options. You can install the latest and make the changes. I have a video link below that shows you the updates OR you can install version 5 like this...
+
+    npm i react-router-dom@5.3.0
+
+    Link to v6 update video:
+
+    https://www.youtube.com/watch?v=k2Zk5cbiZhg&t=1s
+
+### Section 2 : Starting The Front End | 9. Implementing React Router
+
+    install package:
+        npm i react-router-dom@5.3.0
+
+    Documentation: https://www.npmjs.com/package/react-router-bootstrap
+    For React Router v4 or v5 (see rr-v4 branch):
+        npm install -S react-router-bootstrap@rr-v4
+
+    pengujian pada pada browser : http://localhost:3000/
+    coba untuk mengklik menu pada navbar dan salah satuitem product, jika tidak terjadi error
+    maka set-up yang kita lakukan berhasil
