@@ -93,3 +93,15 @@
         http://localhost:5000/
         All products : http://localhost:5000/api/products
         single product : http://localhost:5000/api/products/2
+
+### Section 3 : Serving & Fetching Data From Expres| 13. Fetching products From React (useEffect)
+
+    Install axios
+    cd frontend : npm i axios
+    jalankan server : npm start
+
+    pengujian pada browser:
+        http://localhost:5000/
+        All products : http://localhost:5000/api/products
+        single product (klik salah satu product pada All products) : http://localhost:5000/api/products/2
+    note: pastikan kedua server pada terminal berjalan bersamaan!
