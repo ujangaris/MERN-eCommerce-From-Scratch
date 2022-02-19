@@ -70,3 +70,26 @@
     pengujian pada pada browser : http://localhost:3000/
     coba untuk mengklik menu pada navbar dan salah satuitem product, jika berhasil akan di redirect
     ke halaman detail product yng dipilih.
+
+### Section 3 : Serving & Fetching Data From Expres| 11. Front End / Back End Workflow & Explaination
+
+    Front End => react => Chrome
+    Backend => Node ,Express
+    DB => Mongodb, mongoose
+
+    GET /api/products
+    POST /api/products
+    PUT /api/products/25
+    DELETE /api/products/25
+
+### Section 3 : Serving & Fetching Data From Expres| 12. Serving Product -Back End
+
+    install package pada root directory bukan pada backend atau frontend folder!
+        npm init
+        npm install express
+
+    jalankan server pada terminal ke 2 : node backend/server.js atau npm start
+    pengujian pada browser:
+        http://localhost:5000/
+        All products : http://localhost:5000/api/products
+        single product : http://localhost:5000/api/products/2
