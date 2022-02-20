@@ -175,3 +175,11 @@
 
     pada terminal jalankan kembali dengan : npm run server
     kamudian jika berhasil akan ada log MongoDb connection
+
+### Section 4 : Getting Started With MongoDB | 19. Adding Colors To The Console (Optional)
+
+    Documentation : https://www.npmjs.com/package/colors
+    install colors : npm i colors
+
+    pada terminal jalankan kembali dengan : npm run server
+    kamudian jika berhasil log terminal akan berwarna sesuai settingan kita.
