@@ -229,3 +229,13 @@
     │         --->GET All Product     {{URL}}/api/products                         │
     │         --->GET Single Product  {{URL}}/api/products/<ID PRODUCT>            │
     └──────────────────────────────────────────────────────────────────────────────┘
+
+### Section 4 : Getting Started With MongoDB | 25. Custom Error Handling
+
+    pengujian pada postman :
+        GET All Product => {{URL}}/api/products
+        GET Single Product => {{URL}}/api/products/<ID PRODUCT>// salahkan belakan dari id product (error 404)
+
+    pengujian pada browser:
+        http://localhost:3000/
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
