@@ -183,3 +183,7 @@
 
     pada terminal jalankan kembali dengan : npm run server
     kamudian jika berhasil log terminal akan berwarna sesuai settingan kita.
+
+### Section 4 : Getting Started With MongoDB | 20. Modeling Our Data
+
+    membuat schema database userModel, productModel, dan orderModel
