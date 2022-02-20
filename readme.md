@@ -203,3 +203,13 @@
     untuk menjalankan destroy:
     pada terminal ketikan : npm run data:destroy
     jika berhasil akan ada tulisan pada terminal Data Destroyed!
+
+### Section 4 : Getting Started With MongoDB | 23. Fetching Products From The Database
+
+    Documentation : https://www.npmjs.com/package/express-async-handler
+
+        npm i express-async-handler
+
+    pengujian pada browser :
+    All products => http://localhost:5000/api/products
+    Single products => http://localhost:5000/api/products/<id product>
