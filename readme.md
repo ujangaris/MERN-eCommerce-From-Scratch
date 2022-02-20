@@ -139,3 +139,31 @@
     pengujian pada browser:
         http://localhost:3000/
         single product (klik salah satu product pada All products) : http://localhost:3000/product/1
+
+### Section 4 : Getting Started With MongoDB | 17. MongoDB Atlas & Compass Setup
+
+    Download mongoDB Compass, lalu buka mongoDB Compass
+
+    pada browser buka mongoDB Cloud:
+    Create :
+        database : proshop
+        collections : products
+
+    kembali ke clauster,
+    klik connect lalu pilih connect using mongoDB Compass
+    pilih I have mongoDB Compass,
+    lalu copy connecting string :
+        mongodb+srv://ujang123:<password>@ujangarisandi.poe2b.mongodb.net/test
+    pastekan pada mongoDB compass di laptop kita,
+
+    jangan lupa ganti password-nya :
+        mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.mongodb.net/test
+
+    Connect to aplikasi:
+    pada browser buka mongoDB Cloud
+    klik connect kembali
+    kemudian pilih Connect your application
+    coppy connection string:
+    mongodb+srv://ujang123:<password>@ujangarisandi.poe2b.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+    buka file .env kemudian tambahkan source berikut:
+    MONGO_URI=mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.mongodb.net/proshop?retryWrites=true&w=majority
