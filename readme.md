@@ -191,3 +191,15 @@
 ### Section 4 : Getting Started With MongoDB | 21. Preparing Sample Data
 
     install bcryptjs : npm i bcryptjs
+
+### Section 4 : Getting Started With MongoDB | 22. Data Seeder Script
+
+    Seeder data users dan products
+
+    untuk menjalankan import:
+    pada terminal ketikan : npm run data:import
+    jika berhasil akan ada tulisan pada terminal Data Imported!
+
+    untuk menjalankan destroy:
+    pada terminal ketikan : npm run data:destroy
+    jika berhasil akan ada tulisan pada terminal Data Destroyed!
