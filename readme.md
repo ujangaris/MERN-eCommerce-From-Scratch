@@ -239,3 +239,22 @@
     pengujian pada browser:
         http://localhost:3000/
         single product (klik salah satu product pada All products) : http://localhost:3000/product/1
+
+### Section 5 : Implementing Redux For State Management| 26. An Overview of Redux
+
+    Documentation : https://redux.js.org/understanding/thinking-in-redux/glossary
+
+### Section 5 : Implementing Redux For State Management| 27. Create a Redux Store
+
+    pada browser pasang extention : Redux DevTools - Next
+                                    Offered by: Methuselah96
+
+    install Redux
+        cd frontend
+        npm i redux react-redux redux-thunk redux-devtools-extension
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+        http://localhost:3000/
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
