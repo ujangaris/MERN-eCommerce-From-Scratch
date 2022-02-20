@@ -258,3 +258,9 @@
     pengujian pada browser:
         http://localhost:3000/
         single product (klik salah satu product pada All products) : http://localhost:3000/product/1
+
+### Section 5 : Implementing Redux For State Management| 28. Product List Reducer & Action
+
+    pengujian pada browser:
+        http://localhost:3000/
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
