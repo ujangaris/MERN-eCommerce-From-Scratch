@@ -213,3 +213,19 @@
     pengujian pada browser :
     All products => http://localhost:5000/api/products
     Single products => http://localhost:5000/api/products/<id product>
+
+### Section 4 : Getting Started With MongoDB | 24. Getting Started With Postman
+
+    Buka Postman, kemudian Setup environment pada postman:
+    klik gambar mata pojok paling kananan pada postman isi :
+    VARIABLE : URL
+    INITIAL VALUE : http://localhost:5000
+    CURRENT VALUE : http://localhost:5000
+
+    jika sudah diseting seperti diatas ,buat collectioin baru dengan nama ProShop pada Postman
+    ┌──────────────────────────────────────────────────────────────────────────────┐
+    │ Proshop                                                                      │
+    │         --->products                                                         │
+    │         --->GET All Product     {{URL}}/api/products                         │
+    │         --->GET Single Product  {{URL}}/api/products/<ID PRODUCT>            │
+    └──────────────────────────────────────────────────────────────────────────────┘
