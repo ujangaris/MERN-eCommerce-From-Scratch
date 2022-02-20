@@ -187,3 +187,7 @@
 ### Section 4 : Getting Started With MongoDB | 20. Modeling Our Data
 
     membuat schema database userModel, productModel, dan orderModel
+
+### Section 4 : Getting Started With MongoDB | 21. Preparing Sample Data
+
+    install bcryptjs : npm i bcryptjs
