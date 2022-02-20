@@ -132,3 +132,10 @@
     pengujian pada browser:
         http://localhost:3000/
         single product (klik salah satu product pada All products) : http://localhost:3000/product/1
+
+### Section 3 : Serving & Fetching Data From Expres| 16. ES modules in Node.js
+
+    Documentation : https://nodejs.org/dist/latest-v16.x/docs/api/packages.html#type
+    pengujian pada browser:
+        http://localhost:3000/
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
