@@ -118,3 +118,17 @@
         single product (klik salah satu product pada All products) : http://localhost:5000/api/products/2
 
     note: kerennya kita hanya menjalankan server pada root directory saja kedua server bisa berjalan berbarengan :)
+
+### Section 3 : Serving & Fetching Data From Expres| 15. Environment Variables
+
+    install Dotenv pada root directory bukan pada backend atau frontend folder!
+        npm i dotenv
+
+        buat file .env pada directory root
+            pada file .env :
+            NODE_ENV=development
+            PORT=5000
+
+    pengujian pada browser:
+        http://localhost:3000/
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
