@@ -273,3 +273,12 @@
         single product (klik salah satu product pada All products) : http://localhost:3000/product/1
 
     jika diperhatikan akan ada loading sesaat sebelum data tampil.
+
+### Section 5 : Implementing Redux For State Management| 30. Message & Loader Components
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/1
+
+    jika diperhatikan akan ada loading sesaat sebelum data tampil.
