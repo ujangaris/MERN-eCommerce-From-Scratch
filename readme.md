@@ -167,3 +167,11 @@
     mongodb+srv://ujang123:<password>@ujangarisandi.poe2b.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
     buka file .env kemudian tambahkan source berikut:
     MONGO_URI=mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.mongodb.net/proshop?retryWrites=true&w=majority
+
+### Section 4 : Getting Started With MongoDB | 18. Connect To The Database
+
+    Documentation : https://mongoosejs.com/docs/5.x/docs/guide.html
+    install mongoose : npm i mongoose
+
+    pada terminal jalankan kembali dengan : npm run server
+    kamudian jika berhasil akan ada log MongoDb connection
