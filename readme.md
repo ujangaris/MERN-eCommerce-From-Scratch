@@ -313,3 +313,14 @@
         kemudian pilih quantitynya, lalu klik add to cart, jika diredirect ke halaman kosong dan
         coba klik kanan pada browser, inspek element, lalu pilih redux guna cart => cartItmes []
         jika ada cart item [] pada state berarti setup yang kita lakukan berhasil
+
+### Section 6 : Adding The Shopping cart | 34. Add To Cart Functionality
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/<ID PRODUCT YANG DIPILIH>
+
+        kemudian pilih quantitynya, lalu klik add to cart, jika diredirect ke halaman kosong dan
+        coba klik kanan pada browser, inspek element, lalu pilih console, jika ada array product yang kita add
+        pada console berarti setup yang kita lakukan berhasil
