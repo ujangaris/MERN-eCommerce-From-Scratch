@@ -291,3 +291,14 @@
         single product (klik salah satu product pada All products) : http://localhost:3000/product/<ID PRODUCT YANG DIPILIH>
 
     jika diperhatikan akan ada loading sesaat sebelum data tampil.
+
+### Section 6 : Adding The Shopping cart | 32. Qty Select & Add To Cart Button
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+        single product (klik salah satu product pada All products) : http://localhost:3000/product/<ID PRODUCT YANG DIPILIH>
+
+        kemudian pilih quantitynya, lalu klik add to cart, jika diredirect ke halaman kosong dan
+        pada link browser seperti berikut : http://localhost:3000/cart/6211b8d9f484c484d2ed08ff?qty=0
+        berarti setup yang kita lakukan berhasil.
