@@ -365,3 +365,16 @@
       kemudian : http://127.0.0.1:5000/api/products
       kemudian : http://127.0.0.1:5000/api/products/<id product>
       jika data produtc muncul setup yang kita lakukan berhasil
+
+### Section 7 : Back End User Authentication | 37. User Authentication Endpoint
+
+    pengujian pada postman : POST {{URL}}/api/users/login
+    input => body => raw => json : //data dibawah sama dengan data pada data/users.js
+        {
+            "email": "john@example.com",
+            "password": "123456"
+        }
+    response: sama dengan data
+
+    akan muncul pesan error jika email dan password tidak match dengan database.
+    silahkan dicoba login dengan data yang salah!
