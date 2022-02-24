@@ -366,7 +366,7 @@
       kemudian : http://127.0.0.1:5000/api/products/<id product>
       jika data produtc muncul setup yang kita lakukan berhasil
 
-### Section 7 : Back End User Authentication | 37. User Authentication Endpoint
+### Section 7 : Back End User Authentication | 38. User Authentication Endpoint
 
     pengujian pada postman : POST {{URL}}/api/users/login
     input => body => raw => json : //data dibawah sama dengan data pada data/users.js
@@ -378,3 +378,26 @@
 
     akan muncul pesan error jika email dan password tidak match dengan database.
     silahkan dicoba login dengan data yang salah!
+
+### Section 7 : Back End User Authentication | 39. Brift Explaination of JWT (JSON Web Tokens)
+
+    JWT Documentation : https://jwt.io/
+                        https://github.com/auth0/node-jsonwebtoken
+    setup postman : Get all user =>  GET {{URL}}/api/products
+    Authorization => pilih Bearer => Token: {{accessToken}}
+
+### Section 7 : Back End User Authentication | 40. Generate a JWT (JSON Web Tokens)
+
+    JWT Documentation : https://www.npmjs.com/package/jsonwebtoken
+    install JWT : npm i jsonwebtoken
+
+    pada file .env tambahkan source : JWT_SECRET=abc123
+
+    pengujian pada postman : POST {{URL}}/api/users/login
+    input => body => raw => json : //data dibawah sama dengan data pada data/users.js
+        {
+            "email": "john@example.com",
+            "password": "123456"
+        }
+    response: sama dengan data dan akan muncul token dengan isinya:
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTFiOGQ5ZjQ4NGM0ODRkMmVkMDhmYiIsImlhdCI6MTY0NTcxMDI4MCwiZXhwIjoxNjQ4MzAyMjgwfQ.GvDqFfy0xJJbgqY_yM2ieRJPKjDZxUYDfX2u-fREbi0"
