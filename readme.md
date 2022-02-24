@@ -401,3 +401,22 @@
         }
     response: sama dengan data dan akan muncul token dengan isinya:
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTFiOGQ5ZjQ4NGM0ODRkMmVkMDhmYiIsImlhdCI6MTY0NTcxMDI4MCwiZXhwIjoxNjQ4MzAyMjgwfQ.GvDqFfy0xJJbgqY_yM2ieRJPKjDZxUYDfX2u-fREbi0"
+
+### Section 7 : Back End User Authentication | 41. Custom Authentication
+
+    pengujian pada postman : POST {{URL}}/api/users/login
+    input => body => raw => json : //data dibawah sama dengan data pada data/users.js
+        {
+            "email": "john@example.com",
+            "password": "123456"
+        }
+    response: sama dengan data dan akan muncul token kemudian kopi token dan pastekan pada
+    User Profile {{URL}}/api/users/profile:
+    pada headers :
+        Key: Authorization
+        Value : Bearer <token yang login>
+
+    kemudian coba request data, jika menampilkan data yang login
+    berarti setup yang kita lakukan berhasil.
+
+    pengujian juga bisa dilakukan dengan menghapus beberapa hurup pada token dan liat pesannya yang muncul.
