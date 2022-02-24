@@ -339,3 +339,20 @@
     jika berhasil ada beberapa product yang kita add,
     selanjutnya coba klik proceed to chekout,
     jika di redirect kelaman kosong , setup yang kita lakukan berhasilk.
+
+### Section 6 : Adding The Shopping cart | 36. Remove Items From Cart
+
+     jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+        klik icon cart : http://localhost:3000/cart
+    kemudian inspek , lalu pilih aplikasi  hapus yang ada pada loca lStorage
+    maka alert cart empty akan tampil.
+
+    kemudian coba lakukan add cart,
+    lalu klik navbar icon cart, akan di redirect ke halaman cart
+    jika berhasil ada beberapa product yang kita add,
+    coba klik icon trash jika item terhapus maka setup yang kita lakukan berhasil.
+
+    Note: jika coba di refresh halaman browser setelah dihapus dan muncul product yang dihapus,
+    coba sehabis dihapus kehalanan root, trus masuk lagi ke halaman cart, pasti yang terhapus tidak lagi muncul.
