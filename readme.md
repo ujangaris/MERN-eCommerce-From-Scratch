@@ -356,3 +356,12 @@
 
     Note: jika coba di refresh halaman browser setelah dihapus dan muncul product yang dihapus,
     coba sehabis dihapus kehalanan root, trus masuk lagi ke halaman cart, pasti yang terhapus tidak lagi muncul.
+
+### Section 7 : Back End User Authentication | 37. Clean Up By Using Controllers
+
+    pengujian bisa dilakukan melalui brwoser atau postman.
+    saya menggunakan browser :
+     jalan kan server pada route directory: npm run dev
+      kemudian : http://127.0.0.1:5000/api/products
+      kemudian : http://127.0.0.1:5000/api/products/<id product>
+      jika data produtc muncul setup yang kita lakukan berhasil
