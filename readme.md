@@ -324,3 +324,18 @@
         kemudian pilih quantitynya, lalu klik add to cart, jika diredirect ke halaman kosong dan
         coba klik kanan pada browser, inspek element, lalu pilih console, jika ada array product yang kita add
         pada console berarti setup yang kita lakukan berhasil
+
+### Section 6 : Adding The Shopping cart | 35. Cart Screen
+
+     jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+        klik icon cart : http://localhost:3000/cart
+    kemudian inspek , lalu pilih aplikasi  hapus yang ada pada loca lStorage
+    maka alert cart empty akan tampil.
+
+    kemudian coba lakukan add cart,
+    lalu klik navbar icon cart, akan di redirect ke halaman cart
+    jika berhasil ada beberapa product yang kita add,
+    selanjutnya coba klik proceed to chekout,
+    jika di redirect kelaman kosong , setup yang kita lakukan berhasilk.
