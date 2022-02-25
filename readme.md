@@ -438,3 +438,27 @@
 
     User Profile {{URL}}/api/users/profile:
     masuk ke Authorization kemuian pilih Beare Token : {{TOKEN}} // variable ini sama dengan yang ada pada tests
+
+### Section 7 : Back End User Authentication | 43. User Registration & Password Encryption
+
+    pengujian pada postman setelah di seting:
+    User Register : POST {{URL}}/api/users
+    input => body => raw => json :
+        {
+            "name": "Steve Smith",
+            "email": "steve@example.com",
+            "password": "123456"
+        }
+
+    jika setup yang kita lakukan berhasil maka ,
+
+    response : 201
+        {
+            "_id": "6219587ef895a7ed01e8fe15",
+            "name": "Steve Smith",
+            "email": "steve@example.com",
+            "isAdmin": false,
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTk1ODdlZjg5NWE3ZWQwMWU4ZmUxNSIsImlhdCI6MTY0NTgyODIyMiwiZXhwIjoxNjQ4NDIwMjIyfQ.36XSKqemPHzTsV1tJgsoEAr0Pw6ytSklvbzul5fjocg"
+        }
+
+    dan padad database juga akan tersimpan user yang baru saja kita registrasi.
