@@ -420,3 +420,21 @@
     berarti setup yang kita lakukan berhasil.
 
     pengujian juga bisa dilakukan dengan menghapus beberapa hurup pada token dan liat pesannya yang muncul.
+
+### Section 7 : Back End User Authentication | 42. Saving The Token In Postman
+
+    pada postman => test : pm.environment.set("TOKEN", pm.response.json().token)
+
+    note: pada environment pilih ProShop
+
+    pengujian pada postman setelah di seting:
+    User Login : POST {{URL}}/api/users/login
+    input => body => raw => json : //data dibawah sama dengan data pada data/users.js
+        {
+            "email": "john@example.com",
+            "password": "123456"
+        }
+    response: sama dengan data dan akan muncul token kemudian kopi token dan pastekan pada :
+
+    User Profile {{URL}}/api/users/profile:
+    masuk ke Authorization kemuian pilih Beare Token : {{TOKEN}} // variable ini sama dengan yang ada pada tests
