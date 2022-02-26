@@ -497,3 +497,18 @@
         "password": "123456"
     setelah login berhasil akan diarahkan kehalaman root: http://localhost:3000/
     perhatkan yang tdnya menu login berubah menjadi nama user yang sedang login.
+
+### Section 8 : Front End User Authentication & Profile | 47. User Register Reducer, Action & Screen
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    klik menu sign in, kemudian akan diarahkan kehalaman login,
+    selanjutnya klik kalimat register setelah New Customer?
+
+    kemudian isikan form register untuk user baru
+    jika berhasil akan di arahkan kehalaman root : http://localhost:3000/
+
+    note: coba lakukan pengujian dengan nama user yang sudah ada, password tidak sama,
+    jika muncul pesan error maka setpup yang kita lakukan berhasil
