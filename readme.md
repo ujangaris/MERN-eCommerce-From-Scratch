@@ -536,3 +536,14 @@
 
     jika ketika di login dengan password lama gagal, dan coba dengan password yang baru,
     jika berhasil maka setup yang kita lakukan berhasil
+
+### Section 8 : Front End User Authentication & Profile | 49. Profile Screen & Get User Details
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    setalah berhasil coba klik nama user yang login pada menu navbar, pilih profile
+    jika diarahkan kehalaman user profile dan data profile tampil,maka
+    setup yang kita lakukan berhasil.
