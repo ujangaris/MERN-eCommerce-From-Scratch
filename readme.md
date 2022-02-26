@@ -547,3 +547,17 @@
     setalah berhasil coba klik nama user yang login pada menu navbar, pilih profile
     jika diarahkan kehalaman user profile dan data profile tampil,maka
     setup yang kita lakukan berhasil.
+
+### Section 8 : Front End User Authentication & Profile | 50. Update User Profile
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    setalah berhasil coba klik nama user yang login pada menu navbar, pilih profile
+    jika diarahkan kehalaman user profile dan data profile tampil
+    kemudian coba update profile, jika ada alert success
+    maka setup yang kita lakukan berhasil
+
+    note:  setelah update, refresh halaman biar lebih yakin.
