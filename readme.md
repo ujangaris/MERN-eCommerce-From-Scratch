@@ -561,3 +561,17 @@
     maka setup yang kita lakukan berhasil
 
     note:  setelah update, refresh halaman biar lebih yakin.
+
+### Section 15 : Bug Fix | 92. Bux Fix: Update Navbar Name
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    setalah berhasil coba klik nama user yang login pada menu navbar, pilih profile
+    jika diarahkan kehalaman user profile dan data profile tampil
+    kemudian coba update profile, jika ada alert success
+    maka setup yang kita lakukan berhasil
+
+    note:  secsion ini adalah pebaikan bug, jd walau section 15 di masukan di sini.
