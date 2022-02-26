@@ -512,3 +512,27 @@
 
     note: coba lakukan pengujian dengan nama user yang sudah ada, password tidak sama,
     jika muncul pesan error maka setpup yang kita lakukan berhasil
+
+### Section 8 : Front End User Authentication & Profile | 48. Update Profile Endpoint
+
+    note: pada environment pilih ProShop
+
+    pengujian pada postman setelah di seting:
+    User Login : POST {{URL}}/api/users/login
+    input => body => raw => json : //data dibawah sama dengan data pada data/users.js
+        {
+            "email": "john@example.com",
+            "password": "123456"
+        }
+
+    coba lakukan update data:
+    PUT {{URL}}/api/users/profile
+    input => body => raw => json :
+        {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "password": "123456"//ini rubah lalu coba login dengan password lama,
+        }
+
+    jika ketika di login dengan password lama gagal, dan coba dengan password yang baru,
+    jika berhasil maka setup yang kita lakukan berhasil
