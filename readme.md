@@ -462,3 +462,11 @@
         }
 
     dan padad database juga akan tersimpan user yang baru saja kita registrasi.
+
+### Section 8 : Front End User Authentication & Profile | 44. User Login Reducer & Action
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    coba klik kanan pada browser, inspek element, lalu pilih redux guna mengetahui userInfo login pada state.  jika berisikan null, berarti setup yang kita lakukan berhasil
