@@ -594,3 +594,18 @@
     kembali kehalaman root http://localhost:3000
     kemudian coba refresh halaman , jika data pada inspek => redux => state:
     data yang kita isi pada form shipping tidak hilang berarti setup yang kita lakukan berhasil
+
+### Section 9 : Checkout Process-Part 1 | 53. Checkout Steps Component
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    jika diatas form ada Sign In, Shipping, Payment, Place Order ,maka
+    setup yang kita lakukan berhasil.
