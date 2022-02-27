@@ -696,3 +696,5 @@
     authorization : Bearer Token => {{TOKEN}}
     GET {{URL}}/api/orders/<id order>//untuk id order lihat pada database order.
     jika data tampil maka setup yang kita lakukan berhasil.
+
+### Section 10 : Checkout Process-Part 2 | 59. Order Details Reducer & Action
