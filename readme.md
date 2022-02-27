@@ -822,3 +822,12 @@
     note: kita telah membuat 2 akun paypal : 1 personal dan 2 bussines
     personal dipakai untuk pembayaran, sedangkan bussines digunakan untuk aplikasi yang kita buat
     jd pada tahap pembayaran kita harus login terlebih dahulu ke akun paypal personal untuk dpaat melakukan pemmbayaran.
+
+### Section 10 : Checkout Process-Part 2 | 65. Show Orders On Profile
+
+    Pengujian pada browser:
+
+    lakukan login dengan user yang terdaftar,
+    kemudian klik menu nama user yang login, lalu pilih profile
+    jika diarahkan kehalaman profile : http://localhost:3000/profile
+    dan data myorder tampil , maka setup yang kita lakukan berhasil.
