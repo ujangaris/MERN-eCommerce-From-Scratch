@@ -734,3 +734,27 @@
     http://localhost:3000/order/<id order>
 
     jika tampil alert Not Delivery & Not Paid, maka setup yang kita lakukan berhasil.
+
+### Section 10 : Checkout Process-Part 2 | 61. Add Check for Order
+
+    In the OrderScreen useEffect(), check for the order and also make sure
+    that the order ID matches the ID in the URL. If it does not,
+    then dispatch getOrderDetails() to fetch the most recent order
+
+    note: sebelum melakukan transaksi harap selalu hapus data order yang ada di mongoDB Compass!
+
+    lakukan login dengan user yang terdaftar,
+    pilih add product( memilih product/ *pilih beberapa product)
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+    akan di redirect ke halaman : http://localhost:3000/placeorder
+    dan menampilkan data sumary order sesuai orderan.
+    kemudian klik button place order, jika berhasil akan di arahkan :
+    http://localhost:3000/order/<id order>
+
+    jika tampil invoice berjalan dengan baik maka setup yang kita lakukan berhasil.
