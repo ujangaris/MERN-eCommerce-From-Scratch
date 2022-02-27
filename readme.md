@@ -831,3 +831,14 @@
     kemudian klik menu nama user yang login, lalu pilih profile
     jika diarahkan kehalaman profile : http://localhost:3000/profile
     dan data myorder tampil , maka setup yang kita lakukan berhasil.
+
+### Section 10 : Checkout Process-Part 2 | 66. User Details & Orders Reset
+
+    Pengujian pada browser:
+
+    lakukan login dengan user admin yang terdaftar,
+    kemudian klik menu nama user yang login, lalu pilih profile
+    jika diarahkan kehalaman profile : http://localhost:3000/profile
+    data myorder tidak tampil saat admin login, karna admin tidak melakukan order,
+    jika data myorder tampil ketika user yang hanya melakukan order,
+    maka setup yang kita lakukan berhasil.
