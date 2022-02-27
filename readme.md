@@ -758,3 +758,5 @@
     http://localhost:3000/order/<id order>
 
     jika tampil invoice berjalan dengan baik maka setup yang kita lakukan berhasil.
+
+### Section 10 : Checkout Process-Part 2 | 62. Update To paid Endpoint
