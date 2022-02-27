@@ -778,3 +778,47 @@
     dan menampilkan data sumary order sesuai orderan.
     kemudian klik button place order, jika berhasil akan di arahkan :
     http://localhost:3000/order/<id order>
+
+### Section 10 : Checkout Process-Part 2 | 64. Adding PayPal Payments
+
+    create acount personal dan satu lagi untuk bussines  untuk paypal transaction: https://developer.paypal.com/developer/accounts
+    PayPal Developper : https://developer.paypal.com/developer/applications/create
+        app name: proshop
+        sanbox bussines account: pilih yang kita pilih bussines
+        setelah itu create app
+
+    akan di redirect kehalaman detail app, copy code client id, lalu pastekan pada route/.env
+    PAYPAL_CLIENT_ID=AY8EGGzoxESxG52Gs1YyBkVM0BCNcL70hWNgK5chnlXwm_bl71S4vVlJ51lky2oO6G8Bgv3NyWqIFsFM
+
+    Paypal sdk script : https://developer.paypal.com/docs/regional/th/checkout/reference/customize-sdk/
+        <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+
+
+    cd frontend:
+    install react-paypal-button-v2: npm i react-paypal-button-v2
+    Documentation : https://www.npmjs.com/package/react-paypal-button-v2
+
+    Pengujian pada browser:
+
+    lakukan login dengan user yang terdaftar,
+    pilih add product( memilih product/ *pilih beberapa product)
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+    akan di redirect ke halaman : http://localhost:3000/placeorder
+    dan menampilkan data sumary order sesuai orderan.
+    kemudian klik button place order, akan di arahkan : http://localhost:3000/order/<id order>
+    kemudian klik buttton Paypal yang warna kuning,
+    disini kita akan diarahkan kehalaman/alert pemabyaran klik 'paypal now'
+    jika Not Paid berubah jd aler hijau "paid on ..." , berarti setup yang kita lakukan berhasil.
+
+    lihat juga pada browser => inspek => console: akan ada data transaksi kita.
+    lihat juga pada mongoDB Compass => order : data akan terupdate!
+
+    note: kita telah membuat 2 akun paypal : 1 personal dan 2 bussines
+    personal dipakai untuk pembayaran, sedangkan bussines digunakan untuk aplikasi yang kita buat
+    jd pada tahap pembayaran kita harus login terlebih dahulu ke akun paypal personal untuk dpaat melakukan pemmbayaran.
