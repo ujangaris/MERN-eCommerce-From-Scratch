@@ -575,3 +575,22 @@
     maka setup yang kita lakukan berhasil
 
     note:  secsion ini adalah pebaikan bug, jd walau section 15 di masukan di sini.
+
+### Section 9 : Checkout Process-Part 1 | 52. Shipping Screen & Save Address
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    kemudian add salah satu product, kemudian tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+    lalu isi kan form shipping.
+    klik kakan pada browsher => inspek => redux => state :
+    akan ada data yang kita isi pada form shipping
+
+    kembali kehalaman root http://localhost:3000
+    kemudian coba refresh halaman , jika data pada inspek => redux => state:
+    data yang kita isi pada form shipping tidak hilang berarti setup yang kita lakukan berhasil
