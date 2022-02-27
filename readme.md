@@ -688,3 +688,11 @@
 
     pada tahap ini tentu saja halaman masih kosong, kemudian coba check pada database mongoDb Compass
     jika berhasil maka pada order akan ada data orderan yang berhasil tersimpan.
+
+### Section 10 : Checkout Process-Part 2 | 58. Get Order by ID Endpoint
+
+    pengujian pada postman:
+    buat folder baru pada Proshop/order/Order By ID :
+    authorization : Bearer Token => {{TOKEN}}
+    GET {{URL}}/api/orders/<id order>//untuk id order lihat pada database order.
+    jika data tampil maka setup yang kita lakukan berhasil.
