@@ -654,3 +654,16 @@
     pilih radio button paypal orcreditcart lalu klik continue
     jika berhasil akan di redirect ke halaman : http://localhost:3000/placeorder
     dan menampilkan data order items sesuai database
+
+### Section 9 : Checkout Process-Part 1 | 55. Place Order Screen part 3 | order summary
+
+    lakukan login dengan user yang terdaftar,
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+    jika berhasil akan di redirect ke halaman : http://localhost:3000/placeorder
+    dan menampilkan data sumary order sesuai orderan.
