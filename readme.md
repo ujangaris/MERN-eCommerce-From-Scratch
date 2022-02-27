@@ -667,3 +667,5 @@
     pilih radio button paypal orcreditcart lalu klik continue
     jika berhasil akan di redirect ke halaman : http://localhost:3000/placeorder
     dan menampilkan data sumary order sesuai orderan.
+
+### Section 9 : Checkout Process-Part 1 | 56. Order Controller & Route
