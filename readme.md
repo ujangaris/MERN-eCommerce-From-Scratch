@@ -609,3 +609,23 @@
 
     jika diatas form ada Sign In, Shipping, Payment, Place Order ,maka
     setup yang kita lakukan berhasil.
+
+### Section 9 : Checkout Process-Part 1 | 54. Payment Screen & Save Payment method
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    lakukan login dengan user yang terdaftar,
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+
+    kemudian coba refresh halaman ,
+    jika data pada inspek => redux => state => CART_SAVE_PAYMENT_METHOD => diff:
+    sisi berupa : cart => paymentMethod(pin):'PayPal'
+    berarti setup yang kita lakukan berhasil
