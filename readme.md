@@ -698,3 +698,21 @@
     jika data tampil maka setup yang kita lakukan berhasil.
 
 ### Section 10 : Checkout Process-Part 2 | 59. Order Details Reducer & Action
+
+### Section 10 : Checkout Process-Part 2 | 60. Order Screen
+
+    lakukan login dengan user yang terdaftar,
+    pilih add product( memilih product/ *pilih beberapa product)
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+    akan di redirect ke halaman : http://localhost:3000/placeorder
+    dan menampilkan data sumary order sesuai orderan.
+    kemudian klik button place order, jika berhasil akan di arahkan :
+    http://localhost:3000/order/<id order>
+
+    jika tampil infoice order, maka setup yang kita lakukan berhasil.
