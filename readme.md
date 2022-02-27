@@ -669,3 +669,22 @@
     dan menampilkan data sumary order sesuai orderan.
 
 ### Section 9 : Checkout Process-Part 1 | 56. Order Controller & Route
+
+### Section 9 : Checkout Process-Part 1 | 57. Create Order
+
+    lakukan login dengan user yang terdaftar,
+    pilih add product( memilih product/ *pilih beberapa product)
+    kemudian  tekan menu cart pada navbar
+    akan di redirect kehalaman : http://localhost:3000/cart
+    kemudian klik proceed to chekcout
+    akan di redirect kehalaman : http://localhost:3000/shipping
+
+    kemudian coba klik continue , akan di redirect kehalaman payment : http://localhost:3000/payment
+    pilih radio button paypal orcreditcart lalu klik continue
+    akan di redirect ke halaman : http://localhost:3000/placeorder
+    dan menampilkan data sumary order sesuai orderan.
+    kemudian klik button place order, jika berhasil akan di arahkan :
+    http://localhost:3000/order/<id order>
+
+    pada tahap ini tentu saja halaman masih kosong, kemudian coba check pada database mongoDb Compass
+    jika berhasil maka pada order akan ada data orderan yang berhasil tersimpan.
