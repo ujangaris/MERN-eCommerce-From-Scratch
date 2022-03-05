@@ -1232,3 +1232,30 @@
     │     3. uploadRoutes.js                                                     │
     │     4. server.js                                                           │
     └────────────────────────────────────────────────────────────────────────────┘
+
+### Section 12 : Admin Screen Part 2 | 81. Front End Image Upload
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. ProductEditScreen.js                                                │
+    │                                                                            │
+    │     Note : untuk mengatasi error halaman tidak tampil,                     │
+    │     pada react-bootstrap harus menggunakan veri: 1.3.0                     │
+    │     jd kita install ulang react-bootstrapnya                               │
+    │     pada terminal masuk ke folder frontend(cd frontend)                    │
+    │     kemudian ketikan perintah: npm i react-bootstrap@1.3.0                 │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
+    klik button edit, jika berhasil akan di arahkan kehalaman edit product dan
+    data product yang di pilih akan tampil pada form edit product
+
+    lakukan edit pada form ganti gambar klik brows image, jika diarahkan kelahalaman list product
+    dan image berhasil berubah, tandanya setup yang kita lakukan berhasil
