@@ -1217,3 +1217,18 @@
 
     lakukan edit pada form, jika diarahkan kelahalaman list product
     dan data berhasil berubah, tandanya setup yang kita lakukan berhasil
+
+### Section 12 : Admin Screen Part 2 | 80. Image Upload Config & Endpoint
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. Documentation :                                                     │
+    │         https://www.npmjs.com/package/multer                               │
+    │                                                                            │
+    │ https://www.codegrepper.com/search.php?answer_removed=1&q=why%20multer     │
+    │                                                                            │
+    │         install multer : npm i multer                                      │
+    │     2. pada route folder uploads/file.txt                                  │
+    │     3. uploadRoutes.js                                                     │
+    │     4. server.js                                                           │
+    └────────────────────────────────────────────────────────────────────────────┘
