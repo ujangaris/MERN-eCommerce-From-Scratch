@@ -931,3 +931,48 @@
 
     kamu juga bisa coba login sebagai user dan mencoba meng-akses halaman admin user,
     akan di arahkan kehalaman root/home
+
+### Section 11 : Admin Screen Part 1 | 70. Admin User Delete
+
+    Tahap pertamana:
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO :                                                             │
+    │         1. userController.js                                               │
+    │         2. userRoutes.js                                                   │
+    │                                                                            │
+    │                                                                            │
+    │         pengujian pada backend:                                            │
+    │         pada postmant:                                                     │
+    │         login sebagai admin, kemudian , pilih id user dari halaman All     │
+    │          users:                                                             │
+    │                                                                            │
+    │         {{URL}}/api/users                                                  │
+    │                                                                            │
+    │         buat request baru                                                  │
+    │         DELETE {{URL}}/api/users/<id user yang dipilih>                    │
+    │         kemudian coba send message                                         │
+    │         hasil response: "message": "User removed"                          │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    Tahap kedua:
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO :                                                             │
+    │         3. userConstants.js                                                │
+    │         4. store.js                                                        │
+    │         5. userReducers.js                                                 │
+    │         6. userActions.js                                                  │
+    │         7. UserListScreen.js                                               │
+    │                                                                            │
+    │         pengujian pada frontend:                                           │
+    │         pada brwoser, lakukan login sebagai admin,                         │
+    │         kemudian pada menu navbar klik admin => user:                      │
+    │           http://localhost:3000/admin/userlist                             │
+    │                                                                            │
+    │         lalu coba klik button icon trash/delete pada salah satu data user  │
+    │         selain admin                                                       │
+    │                                                                            │
+    │                                                                            │
+    │         bila muncul alert klik oke untuk menghapus, cancel untuk batal     │
+    │         jika user berhasil terhapus maka setup yang kita lakukan berhasil  │
+    └────────────────────────────────────────────────────────────────────────────┘
