@@ -1056,3 +1056,23 @@
 
     kemudian coba edit , jika perubahan tersimpan dan di redirect ke halaman admin userlist
     maka setup yang kita lakukan berhasil.
+
+### Section 12 : Admin Screen Part 2 | 74. Admin Product List
+
+    ada perubahan nama file : productAction.js => productActions.js
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. Header.js                                                           │
+    │     2. ProductListScreen.js <copy dari UserListScreen>, lalu modifikasi    │
+    │     3. App.js                                                              │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
+
+    jika data berhasil tampil, maka setup yang kita lakukan berhasil.

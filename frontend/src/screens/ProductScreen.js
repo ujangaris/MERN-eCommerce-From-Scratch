@@ -6,7 +6,7 @@ import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
-import { listProductDetails } from '../actions/productAction'
+import { listProductDetails } from '../actions/productActions'
 // import products from '../products'
 
 const ProductScreen = ({ history, match }) => {
