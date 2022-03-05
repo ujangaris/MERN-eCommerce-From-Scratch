@@ -18,6 +18,7 @@ import {
   USER_LIST_REQUEST,
   USER_LIST_SUCCESS,
   USER_LIST_FAIL,
+  USER_LIST_RESET, //TODO #4
 } from '../constants/userContants'
 
 export const login = (email, password) => async (dispatch) => {
@@ -57,6 +58,7 @@ export const logout = () => (dispatch) => {
   dispatch({ type: USER_LOGOUT })
   dispatch({ type: USER_DETAILS_RESET }) //TODO #5
   dispatch({ type: ORDER_LIST_MY_RESET })
+  dispatch({ type: USER_LIST_RESET }) //TODO #4
 }
 
 export const register = (name, email, password) => async (dispatch) => {

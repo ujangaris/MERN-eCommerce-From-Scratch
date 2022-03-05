@@ -897,3 +897,37 @@
     http://localhost:3000/admin/userlist
 
     jika berhasil menampilkan halaman users beserta datanya ,berarti setup yang kita lakukan berhasil.
+
+### Section 11 : Admin Screen Part 1 | 69. Admin Screen Access Security
+
+    jika kita login sebagai admin , kemudian masuk kehalaman admin=> users,
+    ketika kita logout maka halaman admin masih tampil, dan ketika di refresh halaman nya
+    akan menampilkan alert "Cannot read property 'token' of null"
+
+    dan ketika kita login sebagai user :
+
+        "email": "john@example.com",
+        "password": "123456"
+
+    lalu mengakses halaman admin=>users: http://localhost:3000/admin/userlist
+        akan ada alert Not authorized as an admin
+
+    untuk mengatasi hal tersebut.
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO :                                                             │
+    │         1. UserListScreen.js                                               │
+    │         2. userContants.js                                                 │
+    │         3. userReducers.js                                                 │
+    │         4. userActions.js                                                  │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    kemudian login sebagai admin , masuk kehalaman users, kemudian logut
+    dan lihat apa yang terjadi.
+
+    kamu juga bisa coba login sebagai user dan mencoba meng-akses halaman admin user,
+    akan di arahkan kehalaman root/home
