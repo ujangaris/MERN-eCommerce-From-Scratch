@@ -1118,3 +1118,35 @@
 
             kemudian guna mengembalikan data dummy kita,
             ketikan perintah pada terminal npm run data:import
+
+### Section 12 : Admin Screen Part 2 | 76. Create & Update Product
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. productController.js                                                │
+    │     2. productRoutes.js                                                    │
+    │     3. save sample.jpeg in public/images                                   │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    pengujian pada postman:
+    login sebagai admin:
+        "email": "admin@example.com",
+        "password": "123456"
+
+    kemudian Add product :
+    POST {{URL}}/api/products , kemudian send request
+    response: menampilkan product yang baru di add.
+
+    Update product
+    PUT {{URL}}/api/products/<id product>
+    body => raw=> json:
+    {
+        "name": "Test Product",
+        "description": "Test description",
+        "price": 10,
+        "category": "Electronics",
+        "countInStock":10,
+        "image": "/images/sample.jpeg",
+        "brand":"Test"
+    }
+    response: menampilkan product yang baru di Update
