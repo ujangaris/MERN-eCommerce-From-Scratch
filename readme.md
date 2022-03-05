@@ -842,3 +842,27 @@
     data myorder tidak tampil saat admin login, karna admin tidak melakukan order,
     jika data myorder tampil ketika user yang hanya melakukan order,
     maka setup yang kita lakukan berhasil.
+
+### Section 11 : Admin Screen Part 1 | 67. Admin Middleware & Get Users Endpoint
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     //todo :                                                               │
+    │     1. userController.js                                                   │
+    │     2. userRoutes.js                                                       │
+    │     3. authMiddleware.js                                                   │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    pengujian pada postman:
+    login sebagai user:
+        "email": "john@example.com",
+        "password": "123456"
+
+    ketika hendak masuk kelaman only admin
+    GET {{URL}}/api/users
+    response:
+    "message": "Not authorized as an admin",
+
+    coba login dengan user admin, dan masuk kehalaman only admin :
+        "email": "admin@example.com",
+        "password": "123456"
+    response: akan  menampilkan semua users
