@@ -1030,3 +1030,29 @@
 
     jika user bukan admin chkebox akan kosong,
     namun jika sebagai admin checkbox akan terceklist
+
+### Section 11 : Admin Screen Part 1 | 73. Update User Functionality
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. userContants.js                                                     │
+    │     2. userReducers.js                                                     │
+    │     3. store.js                                                            │
+    │     4. userActions.js                                                      │
+    │     5. UserEditScreen.js                                                   │
+    │     dan perbaikan typo nama file.                                          │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => user:
+        http://localhost:3000/admin/userlist
+
+    pilih user yang mau di edit(klik button/icon trash)
+    akan di redirect ke halaman edit user/ user details :
+    http://localhost:3000/admin/user/<id user>/edit
+
+    kemudian coba edit , jika perubahan tersimpan dan di redirect ke halaman admin userlist
+    maka setup yang kita lakukan berhasil.
