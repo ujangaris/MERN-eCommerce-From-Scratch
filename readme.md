@@ -1150,3 +1150,27 @@
         "brand":"Test"
     }
     response: menampilkan product yang baru di Update
+
+### Section 12 : Admin Screen Part 2 | 77. Admin Create Product
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. productConstants.js                                                 │
+    │     2. productReducers.js                                                  │
+    │     3. store.js                                                            │
+    │     4. productActions.js                                                   │
+    │     5. ProductListScreen.js                                                │
+    │                                                                            │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
+    klik button create product,
+    jika diarahkan kehalaman kosong, coba back to list product,
+    jika ada product baru yang baerhasil ditambahkan
+    berarti setup yang kita lakukan berhasil.
