@@ -1174,3 +1174,22 @@
     jika diarahkan kehalaman kosong, coba back to list product,
     jika ada product baru yang baerhasil ditambahkan
     berarti setup yang kita lakukan berhasil.
+
+### Section 12 : Admin Screen Part 2 | 78. Edit Product Screen
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. ProductEditScreen.js <copy dari UserEditScreen.js>                  │
+    │         kemudian modifikasi                                                │
+    │     2. App.js                                                              │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
+    klik button edit, jika berhasil akan di arahkan kehalaman edit product dan
+    data product yang di pilih akan tampil pada form edit product
