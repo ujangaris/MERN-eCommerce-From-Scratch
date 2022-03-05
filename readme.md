@@ -976,3 +976,30 @@
     │         bila muncul alert klik oke untuk menghapus, cancel untuk batal     │
     │         jika user berhasil terhapus maka setup yang kita lakukan berhasil  │
     └────────────────────────────────────────────────────────────────────────────┘
+
+### Section 11 : Admin Screen Part 1 | 71. Get Use By ID & Update User Endpoints
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO :                                                             │
+    │         1. userController.js:                                              │
+    │             => getUserById,                                                │
+    │             => updateUser => copy dari updateUserProfile , lalu            │
+    │                modifikasi                                                  │
+    │         2. userRoutes.js                                                   │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada postman:
+    login sebagai admin:
+        "email": "admin@example.com",
+        "password": "123456"
+
+    Get user By ID - Admin Only:
+    GET {{URL}}/api/users/<ID user>
+        response: akan menampilkan satu data user sesuai ID
+
+    Update user By ID - Admin Only:
+    PUT {{URL}}/api/users/<ID user>
+        body => raw => json: "name": "John Doe"
+        response: akan menampilkan data user dan namanya akan terupdate.
