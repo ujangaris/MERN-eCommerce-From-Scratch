@@ -977,7 +977,7 @@
     │         jika user berhasil terhapus maka setup yang kita lakukan berhasil  │
     └────────────────────────────────────────────────────────────────────────────┘
 
-### Section 11 : Admin Screen Part 1 | 71. Get Use By ID & Update User Endpoints
+### Section 11 : Admin Screen Part 1 | 71. Get Uses By ID & Update User Endpoints
 
     ┌────────────────────────────────────────────────────────────────────────────┐
     │         TODO :                                                             │
@@ -1003,3 +1003,30 @@
     PUT {{URL}}/api/users/<ID user>
         body => raw => json: "name": "John Doe"
         response: akan menampilkan data user dan namanya akan terupdate.
+
+### Section 11 : Admin Screen Part 1 | 72. User Edit Screen & Get USer Details
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO :                                                             │
+    │         1. UserListScreen.js                                               │
+    │         2. userActions.js                                                  │
+    │         3. UserEditScreen.js <copy dari RegisterScreen.js> lalu modifkasi  │
+    │         4. App.js                                                          │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => user:
+        http://localhost:3000/admin/userlist
+
+    pilih user yang mau di edit(klik button/icon trash)
+    akan di redirect ke halaman edit user/ user details :
+    http://localhost:3000/admin/user/<id user>/edit
+
+    jika user bukan admin chkebox akan kosong,
+    namun jika sebagai admin checkbox akan terceklist
