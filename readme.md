@@ -1193,3 +1193,27 @@
     kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
     klik button edit, jika berhasil akan di arahkan kehalaman edit product dan
     data product yang di pilih akan tampil pada form edit product
+
+### Section 12 : Admin Screen Part 2 | 79. Admin Update Product
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. productConstants.js                                                 │
+    │     2. productReducers.js                                                  │
+    │     3. store.js                                                            │
+    │     4. productActions.js                                                   │
+    │     5. ProductEditScreen.js                                                │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
+    klik button edit, jika berhasil akan di arahkan kehalaman edit product dan
+    data product yang di pilih akan tampil pada form edit product
+
+    lakukan edit pada form, jika diarahkan kelahalaman list product
+    dan data berhasil berubah, tandanya setup yang kita lakukan berhasil
