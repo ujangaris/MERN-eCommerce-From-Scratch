@@ -1076,3 +1076,45 @@
     kemudian pada menu navbar klik admin => product : http://localhost:3000/admin/productlist
 
     jika data berhasil tampil, maka setup yang kita lakukan berhasil.
+
+### Section 12 : Admin Screen Part 2 | 75. Admin Delete Products
+
+    Pengujian pertama
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         TODO : Backend                                                     │
+    │         1. productController.js                                            │
+    │         2. productRoutes.js                                                │
+    │                                                                            │
+    │         pengujian pada postman :                                           │
+    │         login sebagai admin, kemudian get product all,                     │
+    │         ambil id dari product dan pastekan                                 │
+    │         pada request Delete product By ID:                                 │
+    │             DELETE {{URL}}/api/products/<id product>                       │
+    │         response akan menampilkan : message: 'Product removed'             │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+    Pengujian kedua
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │             TODO : Frontend                                                │
+    │             3. productConstants.js                                         │
+    │             4. productReducers.js                                          │
+    │             5. productActions.js                                           │
+    │             6. store.js                                                    │
+    │             7. ProductListScreen.js                                        │
+    │                                                                            │
+    │                                                                            │
+    │             pengujian pada browser:                                        │
+    │             lakukan login sebagai admin,                                   │
+    │                 "email": "admin@example.com",                              │
+    │                 "password": "123456"                                       │
+    │             kemudian pada menu navbar klik admin                           │
+    │             => product : http://localhost:3000/admin/productlist           │
+    │             klik button delete/ icon trash, jika ada alert klik ok,        │
+    │             jika data berhasil terhapus, setup yang kita lakukan           │
+    │             berhasil.                                                      │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+            kemudian guna mengembalikan data dummy kita,
+            ketikan perintah pada terminal npm run data:import
