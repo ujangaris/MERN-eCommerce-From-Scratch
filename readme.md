@@ -852,6 +852,8 @@
     │     3. authMiddleware.js                                                   │
     └────────────────────────────────────────────────────────────────────────────┘
 
+    jalan kan server pada route directory: npm run dev
+
     pengujian pada postman:
     login sebagai user:
         "email": "john@example.com",
@@ -866,3 +868,32 @@
         "email": "admin@example.com",
         "password": "123456"
     response: akan  menampilkan semua users
+
+### Section 11 : Admin Screen Part 1 | 68. Admin User List
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         //Todo :                                                           │
+    │         1. usercontants.js                                                 │
+    │         2. userReducers.js                                                 │
+    │         3. userActions.js                                                  │
+    │         4. store.js                                                        │
+    │         5. UserListScreen.js <copy dari RegisterScreen.js kemudian         │
+    │            modifikasi>                                                     │
+    │         6. app.js                                                          │
+    │         7. Header.js <copy code dari nav dropdown (*lihat pada bagian      │
+    │            atas ) kemudian modifikasi>                                     │
+    │                                                                            │
+    └────────────────────────────────────────────────────────────────────────────┘
+    jalan kan server pada route directory: npm run dev
+    pengujian pada browser:
+        http://localhost:3000/ lakukan refresh browser
+
+    pengujian pada browser:
+    login sebagai admin: http://localhost:3000/login
+        "email": "admin@example.com",
+        "password": "123456"
+
+    jika berhasil masuk, klik admin pada bagian navbar menu =>kemudian pilih=> users akan diarahkan kehalaman:
+    http://localhost:3000/admin/userlist
+
+    jika berhasil menampilkan halaman users beserta datanya ,berarti setup yang kita lakukan berhasil.

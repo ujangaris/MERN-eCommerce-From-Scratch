@@ -13,6 +13,7 @@ import ShippingScreen from './screens/ShippingScreen'
 import PaymentScreen from './screens/PaymentScreen'
 import PlaceOrderScreen from './screens/PlaceOrderScreen'
 import OrderScreen from './screens/OrderScreen'
+import UserListScreen from './screens/UserListScreen' //TODO #6
 // arow function
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
           <Route path='/profile' component={ProfileScreen} />
           <Route path='/product/:id' component={ProductScreen} />
           <Route path='/cart/:id?' component={CartScreen} />
+          {/* TODO #6 */}
+          <Route path='/admin/userlist' component={UserListScreen} />
           <Route path='/' component={HomeScreen} exact />
         </Container>
       </main>
