@@ -1393,3 +1393,21 @@
     dapat dilihat jika setup kita berhasil rating akan di akumulasi
     baik dan buruknya penilaian rating,
     kemudian jika ada belom login tidak dapat memberi rating
+
+### Section 13 : Product Reviews, Search & More | 86. Product Search
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. SearchBox.js                                                        │
+    │     2. App.js                                                              │
+    │     3. Header.js                                                           │
+    │     4. HomeScreen.js                                                       │
+    │     5. productActions.js                                                   │
+    │     6. productController.js                                                │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    pada navbar menu terdapat search coba masukan beberapa kata,
+    kemudian tekan search, jika berhasil akan tapil product sesuai kata yang dimasukan.
