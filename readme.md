@@ -1440,3 +1440,22 @@
     pengujian pada browser: http://localhost:3000/
     akan tampil button angka paginattion,
     jika diklik akan menampilkan product lainnya
+
+### Section 13 : Product Reviews, Search & More | 87. Product Pagination part 3 | pagination untuk produclist admin
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. ProductListScreen.js                                                │
+    │     2. Paginate.js                                                         │
+    │     3. App.js                                                              │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    klik navbar menu => admin => product
+    akan tampil pagination dan bisa diklik,
+    kenapa tampil hanya 2 per-page karna pada productController.js
+    diseting pageSize hanya 2,biar tampil pagiationya *(data dummy tidak banyak)
+
+    setelah pengujian pada productController.js pageSize rubah kembali ke nilai 10

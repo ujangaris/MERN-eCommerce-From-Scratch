@@ -7,7 +7,7 @@ import Product from '../models/productModel.js'
  * @access  Public
  */
 const getProducts = asyncHandler(async (req, res) => {
-  const pageSize = 2 // jika pageSize = 2 , maka yang akan tampil hanya 2 product
+  const pageSize = 10 // jika pageSize = 2 , maka yang akan tampil hanya 2 product
   const page = Number(req.query.pageNumber) || 1
   const keyword = req.query.keyword
     ? {
