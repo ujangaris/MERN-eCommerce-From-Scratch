@@ -1411,3 +1411,17 @@
     pengujian pada browser:
     pada navbar menu terdapat search coba masukan beberapa kata,
     kemudian tekan search, jika berhasil akan tapil product sesuai kata yang dimasukan.
+
+### Section 13 : Product Reviews, Search & More | 87. Product Pagination part 1 | menampilkan data sesuai pageSize
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. productController.js                                                │
+    │     2. productActions.js                                                   │
+    │     3. productReducers.js                                                  │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser: http://localhost:3000/
+    jumlah product yang tampil sesuai dengan pageSize yakni 2

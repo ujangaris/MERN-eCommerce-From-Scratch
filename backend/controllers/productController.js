@@ -7,6 +7,8 @@ import Product from '../models/productModel.js'
  * @access  Public
  */
 const getProducts = asyncHandler(async (req, res) => {
+  const pageSize = 2 // jika pageSize = 2 , maka yang akan tampil hanya 2 product
+  const page = Number(req.query.pageNumber) || 1
   const keyword = req.query.keyword
     ? {
         name: {
@@ -15,10 +17,12 @@ const getProducts = asyncHandler(async (req, res) => {
         },
       }
     : {}
-
+  const count = await Product.countDocuments({ ...keyword })
   const products = await Product.find({ ...keyword })
+    .limit(pageSize)
+    .skip(pageSize * (page - 1))
 
-  res.json(products)
+  res.json({ products, page, pages: Math.ceil(count / pageSize) })
 })
 /*
  * @desc    Fetch single product
