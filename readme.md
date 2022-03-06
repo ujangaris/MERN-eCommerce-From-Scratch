@@ -1259,3 +1259,36 @@
 
     lakukan edit pada form ganti gambar klik brows image, jika diarahkan kelahalaman list product
     dan image berhasil berubah, tandanya setup yang kita lakukan berhasil
+
+### Section 12 : Admin Screen Part 2 | 82. Admin Order List
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. orderController.js                                                  │
+    │     2. orderRoutes.js                                                      │
+    │     3. orderConstants.js                                                   │
+    │     4. orderReducers.js                                                    │
+    │     5. store.js                                                            │
+    │     6. orderActions.js                                                     │
+    │     7. OrderListScreen.js <copy dari UserListScreen.js>kemudian            │
+    │        modifikasi                                                          │
+    │     8. App.js                                                              │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai user,
+        "email": "john@example.com",
+        "password": "123456"
+
+    kemudian coba add order sampai dengan payment pembayaran(payment method paid)
+    lalu logout dan lakukan login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    pada menu navbar klik admin => orders :
+    jika pada halaman order list terdapat order yang td kita buat dengan user bukan admin
+    berarti setup yang kita lakukan berhasil.
+
+    sebagai admin juga bisa melihat details orders yang dipesan oleh user,
+    klik button Details pada list order yang di pilih.
