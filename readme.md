@@ -1482,3 +1482,21 @@
 
     pengujian pada browser:http://localhost:3000/
     dapat dikatakan berhasil jika carousel yang kita buat tampil.
+
+### Section 13 : Product Reviews, Search & More | 89. Custom Page Titles & Meta
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. react helmet : cd frontend => npm i react-helmet                    │
+    │         Documentation : https://github.com/nfl/react-helmet                │
+    │     2. Meta.js                                                             │
+    │     3. HomeScreen.js                                                       │
+    │     4. ProductScreen.js                                                    │
+    │     5. ProductListScreen.js<perbaikan pagination>                          │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:http://localhost:3000/
+    lihat pada Title All product dan single product

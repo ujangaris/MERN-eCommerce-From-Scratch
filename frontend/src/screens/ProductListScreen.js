@@ -1,7 +1,7 @@
 // rafce => react arow function component export
 import React, { useEffect } from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Table, Button, Row, Col, Pagination } from 'react-bootstrap'
+import { Table, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
