@@ -1459,3 +1459,26 @@
     diseting pageSize hanya 2,biar tampil pagiationya *(data dummy tidak banyak)
 
     setelah pengujian pada productController.js pageSize rubah kembali ke nilai 10
+
+### Section 13 : Product Reviews, Search & More | 88. Top Product Carousel
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     backend                                                                │
+    │         1. productController.js                                            │
+    │         2. productRoutes.js                                                │
+    │     frontend                                                               │
+    │         3. productConstants.js                                             │
+    │         4. productReducers.js                                              │
+    │         5. store.js                                                        │
+    │         6. productActions.js                                               │
+    │         7. ProductCarousel.js                                              │
+    │         8. HomeScreen.js                                                   │
+    │         9. index.css                                                       │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:http://localhost:3000/
+    dapat dikatakan berhasil jika carousel yang kita buat tampil.
