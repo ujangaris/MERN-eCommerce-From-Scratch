@@ -1357,3 +1357,39 @@
 
     lihat pada all product: GET {{URL}}/api/products
     akan ada  data reviews pada product yang kita beri rating td
+
+### Section 13 : Product Reviews, Search & More | 85. Morgan & Create Review Endpoint
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. productConstantsn.js                                                │
+    │     2. productReducers.js                                                  │
+    │     3. store.js                                                            │
+    │     4. productAction.js                                                    │
+    │     5. ProductScreen.js                                                    │
+    │     6. pada mongoDBcompass proshop => product:                             │
+    │         hapus/edit reviews, dikosongkan , lalu save                        │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    lakukan login sebagai user,
+        "email": "john@example.com",
+        "password": "123456"
+
+    kemudian coba coba beri rating, caranya pilih salah satu product
+    contoh airpods, kemudian isi form dan beri rating 5
+    jika berhasil komentar dan rating akan tampil pada details product
+
+    lakukan logout dan  login kembali sebagai user lain,
+        "email": "jeni@example.com",
+        "password": "123456"
+
+    kemudian coba coba beri rating, caranya pilih salah satu product
+    contoh airpods, kemudian isi form dan beri rating 2
+    jika berhasil komentar dan rating akan tampil pada details product
+
+    dapat dilihat jika setup kita berhasil rating akan di akumulasi
+    baik dan buruknya penilaian rating,
+    kemudian jika ada belom login tidak dapat memberi rating
