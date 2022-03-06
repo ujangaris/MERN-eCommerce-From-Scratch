@@ -1425,3 +1425,18 @@
 
     pengujian pada browser: http://localhost:3000/
     jumlah product yang tampil sesuai dengan pageSize yakni 2
+
+### Section 13 : Product Reviews, Search & More | 87. Product Pagination part 2 | menampilkan pagination
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. App.js                                                              │
+    │     2. Paginate.js                                                         │
+    │     3. HomeScreen.js                                                       │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser: http://localhost:3000/
+    akan tampil button angka paginattion,
+    jika diklik akan menampilkan product lainnya
