@@ -1500,3 +1500,20 @@
 
     pengujian pada browser:http://localhost:3000/
     lihat pada Title All product dan single product
+
+### Section 14 : App Deplopment | 90. Prepare For Deplopment
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     frontend                                                               │
+    │         1. cd frontend => npm run build => akan ada folder build           │
+    │     backend                                                                │
+    │         2. server.js                                                       │
+    │         3. .env NODE_ENV=development => NODE_ENV=production                │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:http://localhost:5000
+    jika halaman tampil maka setup yang kita lakukan berhasil
+    check juga pada developer tool react(klik developer tool react pada browser)
