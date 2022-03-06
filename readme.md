@@ -1292,3 +1292,33 @@
 
     sebagai admin juga bisa melihat details orders yang dipesan oleh user,
     klik button Details pada list order yang di pilih.
+
+### Section 12 : Admin Screen Part 2 | 83. Mark Order As Delivered
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1. orderController.js <copy dari updateOrderToPaid>                    │
+    │        kemudian modifikasi.                                                │
+    │     2. orderRoutes.js                                                      │
+    │     3. orderConstants.js                                                   │
+    │     4. orderReducers.js                                                    │
+    │     5. store.js                                                            │
+    │     6. orderActions.js<copy daripayOrder>                                  │
+    │        kemudian modifikasi                                                 │
+    │     7. OrderScreen.js                                                      │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada browser:
+    login sebagai admin,
+        "email": "admin@example.com",
+        "password": "123456"
+    pada menu navbar klik admin => orders :
+    jika pada halaman order list terdapat order yang td kita buat dengan user bukan admin
+
+    sebagai admin juga bisa melihat details orders yang dipesan oleh user,
+    klik button Details pada list order yang di pilih.
+    kemudian klik button Mark As Delivered
+    dikatakan setup kita berhasil jika alet  delivered merah berubah menjadi hijau
+    dan button Mark As Delivered menghilang.
