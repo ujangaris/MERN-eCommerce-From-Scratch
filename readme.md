@@ -1322,3 +1322,38 @@
     kemudian klik button Mark As Delivered
     dikatakan setup kita berhasil jika alet  delivered merah berubah menjadi hijau
     dan button Mark As Delivered menghilang.
+
+### Section 13 : Product Reviews, Search & More | 84. Morgan & Create Review Endpoint
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │     TODO :                                                                 │
+    │     1.  instal morgan  : npm i morgan                                      │
+    │         Documentation : https://www.npmjs.com/package/morgan               │
+    │     2.  server.js                                                          │
+    │     3.  productModels.js                                                   │
+    │     4.  productController.js<copy dari updateProduct>                      │
+    │         kemudian modifikasi                                                │
+    │     5.  productRoutes.js                                                   │
+    └────────────────────────────────────────────────────────────────────────────┘
+
+    jalan kan server pada route directory: npm run dev
+
+    pengujian pada postman:
+    lakukan login sebagai user(user yang sudah order),
+        "email": "john@example.com",
+        "password": "123456"
+
+    Add new product reviews
+    POST {{URL}}/api/products/<id product>/reviews
+    body => raw => json:
+        {
+            "rating": 5,
+            "comment": "These are great headphones"
+        }
+    response: "message": "Review added"
+
+    jika mencoba mereview product yang sama
+    response: "message": "Product already reviewed",
+
+    lihat pada all product: GET {{URL}}/api/products
+    akan ada  data reviews pada product yang kita beri rating td

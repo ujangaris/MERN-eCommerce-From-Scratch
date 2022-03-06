@@ -5,11 +5,13 @@ const reviewSchema = mongoose.Schema(
     name: { type: String, required: true },
     rating: { type: Number, required: true },
     comment: { type: String, required: true },
+    //awal ini harusnya pada section ini
     user: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
       ref: 'User',
     },
+    //akhir ini harusnya pada section ini
   },
   {
     timestamps: true,
