@@ -1517,3 +1517,48 @@
     pengujian pada browser:http://localhost:5000
     jika halaman tampil maka setup yang kita lakukan berhasil
     check juga pada developer tool react(klik developer tool react pada browser)
+
+### Section 14 : App Deplopment | 91. Deploy To Heroku
+
+    TODO :
+    1.  copy file project dan buat dengan nama proshopv1
+        hapus file .git : rm -rf .git
+    1.  .env NODE_ENV=production => NODE_ENV=development
+    2.  .gitignore
+    3.  delete file /frontend/build = file build delete
+    4.  Heroku install : https://devcenter.heroku.com/articles/heroku-cli
+        heroku --version
+        heroku login
+
+        create:
+        heroku create proshopmeanv1
+        buka pada browser => https://proshopmeanv1.herokuapp.com/
+
+    5.  pada root directory buat file : Procfile
+    6.  package.json :
+        "scripts": {//didalam scripts
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    7.  pada terminal root:
+        git init
+        git add .
+        heroku git:remote -a proshopmeanv1
+        git commit -m"prepare for deployment"
+        git push heroku master
+        Documentation: https://dashboard.heroku.com/apps/proshopmeanv1/deploy/heroku-git
+
+        jika ketika aplikasi di open pada brwoser terjadi error logs
+        maka ketikan heroku logs
+
+        masuk kedalam setting aplikasi heroku
+        kemudian pada Config Vars masukan semua yang ada pada file .env
+
+
+    ┌────────────────────────────────────────────────────────────────────────────┐
+    │         NODE_ENV=production => disini dari development                     │
+    │         PORT=5000                                                          │
+    │         MONGO_URI=mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.     │
+    │         mongodb.net/proshop?retryWrites=true&w=majority                    │
+    │         JWT_SECRET=abc123                                                  │
+    │         PAYPAL_CLIENT_ID=AY8EGGzoxESxG52Gs1YyBkVM0BCNcL70hWNgK5chnlXw      │
+    │         m_bl71S4vVlJ51lky2oO6G8Bgv3NyWqIFsFM                               │
+    └────────────────────────────────────────────────────────────────────────────┘
