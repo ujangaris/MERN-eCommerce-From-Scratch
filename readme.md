@@ -1,5 +1,47 @@
 ## MERN eCommerce From Scratch
 
+### Demo Website
+
+    👉 Demo : https://proshopmeanv1.herokuapp.com/
+
+## Run Locally
+
+### #1. Clone repo
+
+    ```
+    $ git clone git@github.com:ujangaris/MERN-eCommerce-From-Scratch.git
+
+    ```
+
+### #2. Install MongoDB
+
+    Download it from here: https://docs.mongodb.com/manual/administration/install-community/
+
+### #3. Run Backend
+
+    ```
+    $ npm install
+
+    ```
+
+### #4. Run Frontend
+
+    ```
+    # open new terminal
+    $ cd frontend
+    $ npm install
+
+    ```
+
+### #5. Run Frontend & Backend together
+
+    ```
+    Import database
+        $ npm run data:import
+    start server
+        $ npm run dev
+    ```
+
 ### Section 2 : Starting The Front End | 4. React Setup
 
     Documentation : https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
